@@ -1,0 +1,19 @@
+.layout {
+  min-height: 100vh;
+ 
+}
+
+.layout .logo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  
+  background-color: white;
+  
+}
+
+.layout .logo img {
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 30px;
+}

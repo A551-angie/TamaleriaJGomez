@@ -1,0 +1,42 @@
+.home {
+  min-height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-color: #E8723E;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home .logo img {
+  margin: auto;
+  margin-top: 80px;
+}
+
+.home .button {
+  background-color: white;
+  color:#E8723E;
+  margin-bottom: 40px;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 10px #6C3C24;
+  transition: 0.5s;
+  text-decoration: none;
+  cursor: pointer;
+}
+.home .button img{
+  width: 18px;
+  margin-left: 10px;
+  
+}
+
+.home footer{
+  background: #f36c32;
+  width: 218vh;
+  text-align: center;
+  padding: 20px;
+  color:white;
+  overflow-x:hidden ;
+  
+} 

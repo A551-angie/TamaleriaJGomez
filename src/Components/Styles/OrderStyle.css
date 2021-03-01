@@ -1,0 +1,199 @@
+.order {
+  height: 100vh;
+}
+
+.order .title {
+  position: absolute;
+  top: 35px;
+  left: 0%;
+  right: 0%;
+  margin: auto;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order .title h1 {
+  font-size: 20px;
+  color: #6C3C24;
+  margin-left: 60px;
+}
+
+.order .title img {
+  width: 50px;
+  
+}
+
+/*-----------------Alert Message----------------*/
+.order .message-container {
+  height: 32%;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 10px;
+}
+
+.order .message {
+  width: 90%;
+  margin: 0 auto;
+  padding: 5px;
+  box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.4);
+  border-radius: 12px;
+}
+
+.order .message h1 {
+  color: #E8723E;
+  
+}
+
+.order .message p {
+  text-align: justify;
+  padding: 5px;
+  color: #6b5556;
+  
+}
+
+/*-------------Articles shopping Cart-------------*/
+.order .articles {
+  height: 40%;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.order .articles .article-container {
+  margin: auto;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.order .articles article {
+  position: relative;
+  height: 80px;
+  width: 70%;
+  margin: auto;
+  transform: translateX(20px);
+  background-color: var(--color-marfil-claro);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.order .articles article .contents {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 40px 0 40px;
+  background: rgb(243, 205, 122);
+  border-radius: 10px;
+}
+
+.order .articles article .contents p:nth-of-type(1) {
+  font-size: 14px;
+  color: var(--color-sombra-oscura-cian);
+}
+
+.order .articles article .contents p:nth-of-type(2) {
+  font-weight: bold;
+}
+
+.order .articles article .contents p:last-child {
+  position: absolute;
+  right: 0%;
+  width: 35px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.order .articles article figure {
+  position: absolute;
+  left: -40px;
+  top: 0%;
+  bottom: 0%;
+  margin: auto;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+}
+
+.order .articles article .button {
+  position: absolute;
+  cursor: pointer;
+}
+
+.order .articles article .circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color:#6C3C24;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.order .articles article .button-left {
+  right: 5px;
+  bottom: 2px;
+}
+
+.order .articles article .button-right {
+  right: 5px;
+  top: 2px;
+}
+
+/*-------------------Resume-------------------*/
+.order .resume {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.order .resume div a {
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+}
+
+.order .resume div:first-child a {
+  width: 60%;
+  background-color:#FBBB3B ;
+}
+
+.order .resume div a p {
+  text-align: center;
+  padding: 10px;
+  color:white;
+}
+
+.order .resume > div:nth-of-type(2) .row {
+  width: 70%;
+  margin: auto;
+  padding: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.order .resume > div:nth-of-type(2) .row:last-child {
+  font-weight: bold;
+  color: black;
+}
+
+.order .resume div:last-child a {
+  width: 70%;
+  background-color:#E8723E;
+  font-size: 20px;
+}
+
+.order .resume div:last-child a i {
+  transform: scale(1.5);
+}
