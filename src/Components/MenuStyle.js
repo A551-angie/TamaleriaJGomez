@@ -12,6 +12,7 @@ function MenuStyle(props) {
         <div className="general-articles">
           <div className="articles" >
             <div className="arrow"><i className="fas fa-chevron-left"/></div>
+            {/*mapiamos las categorisa */}
             {props.categories.map(e => {
               return (
                 <figure onClick={props.clickCategories} data-category={e.category} key={e.id}>

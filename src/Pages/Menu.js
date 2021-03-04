@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 
+// se inporta el contexto
 import { CON } from "../Components/ShoppingCart";
 import MenuStyle from "../Components/MenuStyle";
 
@@ -9,7 +10,8 @@ function Menu() {
   const [list, setList] = React.useState(PRODUCTS.tamal1);
   const [search, setSearch] = React.useState("");
   let filteredList = PRODUCTS.tamal1;
-
+   
+  //funcion para que nos agregue la categoria en menustyle
   function clickCategories(e) {
     setList(PRODUCTS[e.target.dataset.category]);
   }
@@ -39,7 +41,7 @@ function Menu() {
       handleChange={handleChange}
       categories={PRODUCTS.general}
       clickCategories={clickCategories}
-      list={filteredList}
+     list={filteredList}
       increase={increase}
       decrease={decrease}
       amount={cart}

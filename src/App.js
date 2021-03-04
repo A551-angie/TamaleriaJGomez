@@ -1,7 +1,10 @@
+//se importa react-router-dom para poder utilizar las rutas
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Home from "./Pages/Home";
 import Layout from "./Components/Layout";
+
+// se impota shoppingcart desestructurado para poder utilizar el componente 
 import { ShoppingCart } from "./Components/ShoppingCart";
 import Menu from "./Pages/Menu";
 import Order from "./Pages/Order";
