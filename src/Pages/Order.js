@@ -38,8 +38,9 @@ function Order() {
 
   shoppingList.forEach((item, idx) => {
     request.push(`Producto ${idx+1}:
-      ${item.name}: ${values[idx]}
-      //
+      ${item.name}:
+     (${values[idx]})
+      
     `);
   });
 

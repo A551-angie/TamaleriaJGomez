@@ -6,6 +6,7 @@
 .menu .container-general-articles {
   height: 25%;
   padding-top: 150px;
+
 }
 
 .menu .general-articles {
@@ -13,12 +14,12 @@
   width: 90%;
   display: flex;
   justify-content: space-between;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .menu .general-articles .arrow {
   display: flex;
-  color: var(--color-sombra-oscura-cian);
+  color: white;
 }
 
 .menu .general-articles i {
@@ -32,6 +33,7 @@
   display: flex;
   justify-content: space-between;
   width: 80%;
+  
 }
 
 .menu .general-articles .articles figure {
@@ -40,6 +42,9 @@
   align-items: center;
   color: gray;
   
+}
+.menu .general-articles .articles figure:hover{
+  color: #e75111;
 }
 
 .menu .general-articles .articles figure:hover {

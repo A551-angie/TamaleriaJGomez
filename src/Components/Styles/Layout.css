@@ -1,19 +1,23 @@
 .layout {
   min-height: 100vh;
  
+ 
 }
 
 .layout .logo {
   position: absolute;
   top: 0px;
   left: 0px;
-  
+  box-shadow: 1px 1px 1px 1px rgb(128 128 128 / 40%);
   background-color: white;
+  width: 100%;
+  border-radius: 2px 2px 11px 11px;
+ 
   
 }
 
 .layout .logo img {
-  width: 100px;
+  width: 80px;
   margin-top: 10px;
   margin-left: 30px;
 }
