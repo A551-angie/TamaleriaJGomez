@@ -7,6 +7,7 @@ import MenuStyle from "../Components/MenuStyle";
 function Menu() {
   const { PRODUCTS, cart, increase, decrease } = useContext(CON);
 
+  
   const [list, setList] = React.useState(PRODUCTS.tamal1);
   const [search, setSearch] = React.useState("");
   let filteredList = PRODUCTS.tamal1;
