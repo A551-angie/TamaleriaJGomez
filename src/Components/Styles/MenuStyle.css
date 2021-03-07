@@ -1,7 +1,14 @@
 .menu {
   height: 100vh;
 }
-
+.menu .text-menu {
+  margin-top: 90px;
+  color: #e75111;
+}
+.menu .text-menu p {
+  text-align: center;
+  font-weight: bold;
+}
 /*----------General Articles-----------*/
 .menu .container-general-articles {
   height: 25%;
@@ -15,6 +22,7 @@
   display: flex;
   justify-content: space-between;
   font-size: 13px;
+  margin-top: -80px;
 }
 
 .menu .general-articles .arrow {
@@ -62,8 +70,8 @@
 
 /*-------------List of items--------------*/
 .menu .list-of-items {
-  height: 65%;
-  padding-top: 150px;
+  height: 55%;
+  padding-top: 50px;
   overflow-y: scroll;
 }
 

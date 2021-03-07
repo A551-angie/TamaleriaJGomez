@@ -47,11 +47,7 @@ function Order() {
     `);
   });
 
-  const MESSAGE = `Nuevo pedido:
-  
-  ${request.join(`
-  `)}
-  `;
+  const MESSAGE = `Nuevo pedido:${request.join(``)}`;
 
   return (
     <OrderStyle

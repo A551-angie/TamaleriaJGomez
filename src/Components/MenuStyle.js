@@ -7,6 +7,9 @@ import "./Styles/MenuStyle.css";
 function MenuStyle(props) {
   return (
     <section className="menu">
+      <div className="text-menu" >
+        <p >PEDIDOS POR MAYOR</p>
+      </div>
       
       <div className="container-general-articles">
         <div className="general-articles">

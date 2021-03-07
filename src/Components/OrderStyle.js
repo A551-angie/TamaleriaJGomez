@@ -58,7 +58,7 @@ function OrderStyle(props) {
         </div>
 
         <div>
-          <a href={`https://api.whatsapp.com/send?phone=${props.phone}&text=${props.message} total:$${props.total}`}>
+          <a href={`https://api.whatsapp.com/send?phone=${props.phone}&text=${props.message}total:$${props.total}`}>
             <p>Confirmar orden</p>
             <i className="fab fa-whatsapp"></i>
           </a>

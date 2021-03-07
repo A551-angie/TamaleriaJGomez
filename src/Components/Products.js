@@ -12,7 +12,6 @@ const PRODUCTS = {
         backgroundImage: `url('${tamalOne}')`
       }
     },
-      
     {
       id: "gen2",
       name: "Mediano",
@@ -30,20 +29,10 @@ const PRODUCTS = {
       }
     }
   ],
-
   tamal1: [
     {
       id: "big1",
-      name: "Tamal Grande al detal",
-      description: "Tamal con contramuslo o colombina, carne de cerdo, tocino, huevo y zanahoria",
-      cost: 4500,
-      styles: {
-        backgroundImage: `url('${tamalOne}')`
-      }
-    },
-    {
-      id: "big2",
-      name: "Tamal Grande por mayor",
+      name: "Tamal Grande",
       description: "Tamal con contramuslo o colombina, carne de cerdo, tocino, huevo y zanahoria",
       cost: 3000,
       styles: {
@@ -51,20 +40,10 @@ const PRODUCTS = {
       }
     }
   ],
-
   tamal2: [
     {
       id: "medium1",
-      name: "Tamal Medino al detal",
-      description: "Tamal con colombina, tocino, carne de cerdo, huevo y zanahoria",
-      cost: 4000,
-      styles: {
-        backgroundImage: `url('${tamaltwo}')`
-      }
-    },
-    {
-      id: "medium2",
-      name: "Tamal Medino por mayor",
+      name: "Tamal Medino",
       description: "Tamal con colombina, tocino, carne de cerdo, huevo y zanahoria",
       cost: 2700,
       styles: {
@@ -76,16 +55,7 @@ const PRODUCTS = {
   tamal3: [
     {
       id: "small1",
-      name: "Tamal Pequeño al detal",
-      description: "Tamal con contramuslo, tocino y zanahoria",
-      cost: 3000,
-      styles: {
-       backgroundImage: `url('${tamalthree}')`
-    }
-    },
-    {
-      id: "small2",
-      name: "Tamal Pequeño al mayor",
+      name: "Tamal Pequeño",
       description: "Tamal con contramuslo, tocino y zanahoria",
       cost: 2200,
       styles: {
